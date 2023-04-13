@@ -1,0 +1,30 @@
+{
+  "name": "coe-e2e-web",
+  "version": "1.0.0",
+  "description": "CoE end-to-end WEB testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "wdio": "wdio run ./wdio.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://stash.us.dominos.com/projects/QA/repos/coe-e2e-web/browse"
+  },
+  "keywords": [
+    "WebdriverIO"
+  ],
+  "author": "josdem",
+  "license": "ISC",
+  "devDependencies": {
+    "@applitools/eyes-webdriverio": "^5.42.4",
+    "@wdio/allure-reporter": "^8.6.8",
+    "@wdio/cli": "^8.6.7",
+    "@wdio/local-runner": "^8.6.7",
+    "@wdio/mocha-framework": "^8.6.6",
+    "@wdio/spec-reporter": "^8.6.6",
+    "chromedriver": "^111.0.0",
+    "prettier": "^2.8.6",
+    "wdio-chromedriver-service": "^8.1.1"
+  }
+}
